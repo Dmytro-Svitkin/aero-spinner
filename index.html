@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aero Spinner</title>
+    <title>Aero Spinner Demo</title>
+    <link rel="icon"href="/assets/aero-spinner-animated-0.75s.svg">
+    <style>
+        @keyframes colorCycle{
+            0%{background-color:crimson}
+            14%{background-color:coral}
+            29%{background-color:khaki}
+            43%{background-color:mediumseagreen}
+            57%{background-color:deepskyblue}
+            71%{background-color:royalblue}
+            86%{background-color:indigo}
+            93%{background-color:darkmagenta}
+            100%{background-color:crimson}
+        }
+
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            gap: 0.5em;
+            animation:colorCycle 20s infinite ease-in-out;
+        }
+    </style>
 </head>
 <body style="background-color:powderblue">
-    <img src="/assets/aero-spinner.svg">
-    <img src="/assets/aero-spinner-animated-1s.svg">
-    <img src="/assets/aero-spinner-animated-0.75s.svg">
-    <img src="/assets/aero-spinner-animated-0.5s.svg">
+    <a href="/assets/aero-spinner.svg"download><img src="/assets/aero-spinner.svg"></a>
+    <a href="/assets/aero-spinner-animated-1s.svg"download><img src="/assets/aero-spinner-animated-1s.svg"></a>
+    <a href="/assets/aero-spinner-animated-0.75s.svg"download><img src="/assets/aero-spinner-animated-0.75s.svg"></a>
+    <a href="/assets/aero-spinner-animated-0.5s.svg"download><img src="/assets/aero-spinner-animated-0.5s.svg"></a>
 </body>
 </html>
