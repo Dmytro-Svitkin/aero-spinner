@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aero Spinner Demo</title>
-    <link rel="icon"href="./assets/aero-spinner-animated-0.75s.svg">
+    <link rel="icon"href="./assets/aero-spinner-2-animated-0.75s.svg">
     <style>
         @keyframes colorCycle{
             0%{background-color:crimson}
@@ -20,19 +20,42 @@
 
         body{
             margin:0;
-            height:100vh;
+            height:100dvh;
             display:flex;
             justify-content:center;
             align-items:center;
-            gap: 0.5em;
-            animation:colorCycle 20s infinite ease-in-out;
+            animation:colorCycle 20s infinite ease-in-out
+        }
+        table{
+            border-collapse:collapse;
+            border-spacing:0
+        }
+
+        tr,td{
+            padding:0;
+            margin:0;
+            line-height:0
+        }
+
+        img{
+            margin:4px;
         }
     </style>
 </head>
 <body style="background-color:powderblue">
-    <a href="./assets/aero-spinner.svg"download><img src="./assets/aero-spinner.svg"></a>
-    <a href="./assets/aero-spinner-animated-1s.svg"download><img src="./assets/aero-spinner-animated-1s.svg"></a>
-    <a href="./assets/aero-spinner-animated-0.75s.svg"download><img src="./assets/aero-spinner-animated-0.75s.svg"></a>
-    <a href="./assets/aero-spinner-animated-0.5s.svg"download><img src="./assets/aero-spinner-animated-0.5s.svg"></a>
+    <table style="row-gap:0;border-collapse:collapse">
+        <tr>
+            <td><a href="./assets/aero-spinner.svg"download><img src="./assets/aero-spinner.svg"></a></td>
+            <td><a href="./assets/aero-spinner-animated-1s.svg"download><img src="./assets/aero-spinner-animated-1s.svg"></a></td>
+            <td><a href="./assets/aero-spinner-animated-0.75s.svg"download><img src="./assets/aero-spinner-animated-0.75s.svg"></a></td>
+            <td><a href="./assets/aero-spinner-animated-0.5s.svg"download><img src="./assets/aero-spinner-animated-0.5s.svg"></a></td>
+        </tr>
+        <tr>
+            <td><a href="./assets/aero-spinner-2.svg"download><img src="./assets/aero-spinner-2.svg"></a></td>
+            <td><a href="./assets/aero-spinner-2-animated-1s.svg"download><img src="./assets/aero-spinner-2-animated-1s.svg"></a></td>
+            <td><a href="./assets/aero-spinner-2-animated-0.75s.svg"download><img src="./assets/aero-spinner-2-animated-0.75s.svg"></a></td>
+            <td><a href="./assets/aero-spinner-2-animated-0.5s.svg"download><img src="./assets/aero-spinner-2-animated-0.5s.svg"></a></td>
+        </tr>
+    </table>
 </body>
 </html>
