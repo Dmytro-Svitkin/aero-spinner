@@ -34,7 +34,7 @@ With:
 ```
 
 ## Behavior on different `background-color`s
-`aero-spinner`s are opaque, so they should not conflict with any background.
-Visit the project's <a href="https//dmytro-svitkin.github.io/aero-spinner/">github pages</a> to see how these spinners react to different background colors.
+`aero-spinner`s are opaque, so they should not conflict with any background.<br>
+Visit the project's <a href="https://dmytro-svitkin.github.io/aero-spinner/">github pages</a> to see how these spinners react to different background colors.
 
 <sub>This project is licensed under the BSD 3-Clause License.</sub>
