@@ -1,2 +1,2 @@
-# aero-loading-element
-Aero-like Loading Element for HTML
+# aero-spinner
+Aero-like Spinner Loading Element for HTML
