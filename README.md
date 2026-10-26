@@ -11,7 +11,7 @@ There are currently 2 version: with white and cyan glow.
 | <img src="./assets/aero-spinner-animated-0.5s.svg"> | <img src="./assets/aero-spinner-animated-0.5s.svg"> | 0.5 seconds |
 
 Both versions come in 3 revolution time settings: 1 second, 0.75 seconds and 0.5 seconds.<br>
-However it is possible to acquire a custom revolution time setting by simply replacing the value of a `dur` field in any of the animated images.<br>
+However it is possible to acquire a custom revolution time setting by simply replacing the value of a `dur` field in <a href="./assets/aero-spinner-2-animated-0.75s.svg" download>any</a> of the animated images.<br>
 For example, it is possible to alter [<img src="./assets/aero-spinner-2-animated-0.75s.svg" width="10em">] by replacing:
 ```svg
     <animateTransform
@@ -32,3 +32,9 @@ With:
        dur="1.2s"
        repeatCount="indefinite" />
 ```
+
+## Behavior on different `background-color`s
+`aero-spinner`s are opaque, so they should not conflict with any background.
+Visit the project's <a href="">github pages</a> to see how these spinners react to different background colors.
+
+<sub>This project is registered under the BSD Clause-3 License</sub>
